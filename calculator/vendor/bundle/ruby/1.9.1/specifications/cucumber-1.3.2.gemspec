@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = "cucumber"
-  s.version = "1.3.1"
+  s.version = "1.3.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Aslak Helles\u{f8}y"]
-  s.date = "2013-04-21"
+  s.date = "2013-05-22"
   s.description = "Behaviour Driven Development with elegance and joy"
   s.email = "cukes@googlegroups.com"
   s.executables = ["cucumber"]
@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.3"
-  s.summary = "cucumber-1.3.1"
+  s.summary = "cucumber-1.3.2"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 4
+    s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<builder>, [">= 2.1.2"])
